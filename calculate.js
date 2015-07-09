@@ -58,7 +58,12 @@ function checkUserAnswer(type, userAns, correctAns){
 			 else if(type ==="minus") {
 				 minus();
 			 }
-			 
+			 else if(type ==="multiply") {
+				 multiply();
+			 }
+			 else {
+				 divide();
+			 }
 		}
 	}
 	else {
@@ -85,29 +90,44 @@ function minus(){
 		var correctAns = number1 - number2;
 	
 		checkUserAnswer("minus", userAns, correctAns);
-		
 	}
 	
 };
 
 function multiply(){
-	var number1 = Math.Random*maxNum;
-	var number2 = Math.Random*maxNum;
-	number1 * number2;
+	setPageNumbers("*");
+	
+	var answer = document.getElementById("submitAns");
+	answer.onclick =  function() {
+		
+	var userAns = document.getElementById("answer").value;
+	var correctAns = number1 * number2;
+	
+	checkUserAnswer("multiply", userAns, correctAns);
+	}
 };
 
 function divide(){
-	var number1 = Math.Random*maxNum;
-	var number2 = Math.Random*maxNum;
-	
 	// To make the division easier, we want the first number to be bigger than the second.
 	if (number1 < number2){
 		var tempNum = number1;
 		number1 = number2;
 		number2 = tempNum;	
 	}	
+	setPageNumbers("/");
+	
+	var answer = document.getElementById("submitAns");
+	answer.onclick =  function() {
+		
+	var userAns = document.getElementById("answer").value;
+	var correctAns = number1 / number2;
+	
+	checkUserAnswer("divide", userAns, correctAns);
+	}
 };
-	generateNumbers();
+
+// Generate the random numbers as soon as the page is open
+generateNumbers();
 
 window.onload = function(){
 	//generateNumbers();
