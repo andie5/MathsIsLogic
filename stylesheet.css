@@ -14,7 +14,7 @@ body{
 	padding: 0px;
 	/*background:  url(bg_grad.jpg) fixed;*/
 	background:  url(handprint_background2.png) fixed;
-	
+
 	/*Stops backround appearing tiled*/
 	background-size: cover;
 	/*Make sure the background does not tile or repeat:*/
@@ -97,15 +97,15 @@ label{
 	font: bold 1em Calibri, Arial,sans-serif;
 	color: #334d55;
 }
-				
+
 input{
 	font-family:  Calibri, Arial,sans-serif;
 	font-size: 120%;
 	border: 1px;
 	border-style: solid;
-	padding: 12px;	
+	padding: 12px;
 }
-        
+
  input[type="submit"] {
     background: green;
     color: black;
@@ -148,7 +148,7 @@ input{
 	left: 2%;
 	right: 2%;
 	width:95.6%;
-	
+
 }
 
 #content{
@@ -226,7 +226,7 @@ background-image: url(glbnav_background.gif);
 
 #globalNav img{
 	margin-bottom: -4px;
- 
+
 }
 
 #gnl {
@@ -305,11 +305,11 @@ a.glink:hover{
   font-size: 70%;
   margin: 0px  0px 0px 10px;
  }
- 
+
 #search a:link, #search a:visited {
 	font-size: 80%;
 	font-weight: bold;
-	
+
 }
 
 #search a:hover{
@@ -421,7 +421,7 @@ td.storyLeft{
 	display: none;
 	position: fixed;
 	background: #000;
-	border-radius:7px; 
+	border-radius:7px;
 	width:550px;
 	z-index: 10;
 }
@@ -431,11 +431,3 @@ td.storyLeft{
 #dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
 
 /********************* end **********************/
-
-
-
-
-
-
-
-
