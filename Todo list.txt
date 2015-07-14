@@ -1,0 +1,9 @@
+To do
+
+- Redesign layout with Bootstrap
+- Create a hint drop-down box with sweets representing the number of items in the question
+- Simplify the division, so it generates a remainder
+- Zoom into the each operatioN as the button is clicked
+- Create a navigation bar e.g Home | Add | Minus
+
+- Experiment with more user friendly ways pf input - zooming into the input box and maybe a star button to show the user is done
