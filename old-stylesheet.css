@@ -110,11 +110,9 @@ input{
 	top: 112px;
 	left: 2%;
 	right: 2%;*/
-	height: 650px;
+	height: 100%;
+	width:100%;
 	background-color: #ffffff;
-	width: 920px;
-  background-color: #ffffff;
-  margin: 35px 35px 35px 35px;
 }
 
 #tl {
@@ -144,21 +142,11 @@ input{
 
 }
 
-
-#content {
-  position: absolute;
-  padding: 0px 10px 0px 0px;
+#content{
+	padding: 0px 10px 0px 0px;
 	/*Use margin if I want to gring the document back out to use the margin for navigating the webpage
 	margin:0px 0px 0px 0px;*/
-	/*border-left: 1px solid #ccd2d2;*/
-  left: 153px;
-  border-color: #000000;
-  border-radius: 186px;
-  border-style: solid;
-  width: 481px;
-  top: 10%;
-  transform: rotate(360deg);
-  transition: transform 2s;
+	border-left: 1px solid #ccd2d2;
 }
 
 
@@ -320,13 +308,34 @@ a.glink:hover{
 }
 
 
-/************** image-container styles *****************/
+/************** feature styles *****************/
 
-.image-container{
-	padding: 10px 10px 10px 10px;
-	left: 68%;
-	top:20%
+.feature{
+	padding: 0px 0px 10px 10px;
+	font-size: 80%;
+	min-height: 200px;
+	height: 200px;
 }
+html>body .feature {height: auto;}
+
+.feature h3{
+	font: bold 225% Calibri, Arial,sans-serif;
+	color: #000000;
+	padding: 30px 0px 5px 0px;
+}
+
+.feature p{
+	font: Calibri, Arial,sans-serif;
+	color: #000000;
+	/*padding: 30px 0px 5px 0px;*/
+	font-size: 150%;
+}
+
+.feature img{
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+
 
 /*************** story styles ******************/
 

@@ -6,4 +6,22 @@ To do
 - Zoom into the each operatioN as the button is clicked
 - Create a navigation bar e.g Home | Add | Minus
 
-- Experiment with more user friendly ways pf input - zooming into the input box and maybe a star button to show the user is done
+- Experiment with more user friendly ways of input - zooming into the input box and maybe a star button to show the user is done
+
+
+Ues transform - transition css to move from one image to another
+Use relative/absolute positioning
+Use after css function to display the squiggle from the text box
+Use bootstrap modal for the message box
+
+Possibly add z index or keyframes to layer items on the page. or may just be able to order items on the page
+
+Could create different boy images so that the expression changes based on the layout
+
+James riley
+
+
+
+Questions: Use % for positioning?
+Question box layout
+Background and masthead and toolbar div
