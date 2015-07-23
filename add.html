@@ -1,53 +1,39 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<!-- DW6 -->
 <head>
-<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Maths Is Logic</title>
 <link rel="stylesheet" href="stylesheet.css" type="text/css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <!--<script type="text/javascript" src="script.js">-->
 </head>
-<!--<h2><a href="main.html">Home</a></h2>-->
+
 <body>
-    <div class="main-body">
-      <div class ="image-container">
-         <img src="boy.png" alt="Boy" width="200" height="200" />
+  <div class="container">
+    <div class="masthead">
+     <h1 class="siteName"><a href="main.html">Maths Is Logic</a></h1>
+    </div>
+      <!-- Put the navigation bar here -->
+    <div class="wrapper">
+      <div class="content">
+        <h3> Add </h3>
+        <p> Tarry and Tivo want to buy some sweets from the sweets from the shop. If Tarry buys <span id="number1"></span> sweets and Tivo buys <span id="number2"></span> sweets how many do they have?</p>
+  	    <p><span id="number1_sum"></span> <span id="operator"></span> <span id="number2_sum"></span> = </p>
+  	    <p><input type="text" id="answer">
+      </div>
+      <div class="submit btn-group" role="group" aria-label="...">
+        <div><button type="button" class="btn btn-default" id="submitAns">Submit</button></div>
+      </div>
+  </div>
+  <div class="image-container"> <img src="boy.png" alt="Boy" width="200" height="400" /></div>
+  	  <!--<button type="button" class="btn btn-default">Default</button>-->
+  <!--	  <p id="feedback">
+        <p> Press here for a hint - pop-up box or drop-down that enlarges </p>
+      </div>
+      <div class="story">
       </div>
     </div>
-
-
-
-<!--
-<div id="pagecell1">
-
-<  <div id="pageName">
-
-  <div id="content">
-    <div class="feature">
-      <h3> Add </h3>
-      <p> Tarry and Tivo want to buy some sweets from the sweets from the shop. If Tarry buys <span id="number1"></span> sweets and Tivo buys <span id="number2"></span> sweets how many do they have?</p>
-	  <p>
-	  <span id="number1_sum"></span><span id="operator"></span> <span id="number2_sum"></span> =
-	  </p>
-	  <p><input type="text" id="answer">
-
-
-<div class="btn-group" role="group" aria-label="...">
-  <button type="button" class="btn btn-default" id="submitAns">Submit</button>
-</div>
-
-	  <p id="feedback">
-      <p> Press here for a hint - pop-up box or drop-down that enlarges </p>
-    </div>
-    <div class="story">
-    </div>
-  </div>
-  <div id="siteInfo"> <img src="" width="44" height="22" />  &copy;2015 Andrea Asamoah </div>
-</div>
-<!--end pagecell1-->
-
+    <div id="siteInfo"> <img src="" width="44" height="22" />  &copy;2015 Andrea Asamoah </div>
+  --></div>
 <script src="calculate.js">
 </script>
 <script>add();</script>
