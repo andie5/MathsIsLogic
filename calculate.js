@@ -97,7 +97,8 @@ function divide(){
 	answer.onclick =  function() {
 
 	var userAns = document.getElementById("answer").value;
-	var correctAns = number1 / number2;
+  var correctAns = number1 / number2;
+	// var correctAns = Math.floor(number1 / number2);
 
 	checkUserAnswer("divide", userAns, correctAns);
 	}
@@ -142,6 +143,19 @@ function checkUserAnswer(type, userAns, correctAns){
 	}
 	else {
 		alert("The correct answer is "+correctAns);
+	}
+}
+
+/*This will help to provide a visual representation of the question*/
+function help()
+{
+	for(var i=0 i<number1; i++){
+		//replicate image
+		var counters1 = document.getElementById("counter");
+	}
+	for(var i=0 i<number2; i++){
+		//replicate image
+		var counters1 = document.getElementById("counter");
 	}
 }
 

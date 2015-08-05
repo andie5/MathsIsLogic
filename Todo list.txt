@@ -8,6 +8,7 @@ To do
 
 - Experiment with more user friendly ways of input - zooming into the input box and maybe a star button to show the user is done
 
+James Riley
 
 Ues transform - transition css to move from one image to another
 Use relative/absolute positioning
@@ -18,9 +19,7 @@ Possibly add z index or keyframes to layer items on the page. or may just be abl
 
 Could create different boy images so that the expression changes based on the layout
 
-James riley
-
-
+----------------------------
 
 Questions: Use % for positioning?
 Question box layout
@@ -28,3 +27,13 @@ Background and masthead and toolbar div
 
 
 opacity - animate
+
+-----Divisiion---
+Round the answer to make it a whole number
+
+do the modulo to get the remainder
+
+--------------------------------------
+
+span &times seems to stop the onclick from working
+alert boxes
